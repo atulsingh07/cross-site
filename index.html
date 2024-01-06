@@ -1,23 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content-"width-device-width, initial-scale=1.0">
+<title>Document</title>
 </head>
 <body>
-    <img src = 'cookie.png'>
-    <button id = 'btn'>Login</button>
+<h1>Hello World</h1>
+<a href = 'http://localhost:8080/img>Visit samesite website</a>
 
-    <script>
-        const btn = document.getElementById("btn");
+<img src = 'http://localhost:8080/img'>
 
-        if (document.cookie)
-            btn.style.display = "none";
-
-        btn.addEventListener("click", e => {
-            fetch("/login", {"method":"POST"}).then(a=>a.text()).then(console.log)
-        })
-    </script>
 </body>
 </html>
